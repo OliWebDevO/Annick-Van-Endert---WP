@@ -30,10 +30,10 @@
     <header>
         <div class="top-bar">
             <div class="breadcrumb">
-                <a class="link" href="index.html">Accueil</a>
-                <a class="link" href="gallerie.html">Séries de tableaux</a> 
-                <a class="link" href="gallerie-artsenic.html">Artsenic</a>
-                <a class="link" href="contact.html">Contact</a>
+                <a class="link" href="<?php bloginfo("url")?>">Accueil</a>
+                <a class="link" href="<?php bloginfo("url")?>/gallery">Séries de tableaux</a> 
+                <a class="link" href="<?php bloginfo("url")?>/galleryartsenic">Artsenic</a>
+                <a class="link" href="<?php bloginfo("url")?>/contact">Contact</a>
             </div>
             <div class="follow">
                 <div class="f-text">
@@ -159,7 +159,88 @@
 
     <!-- Start of page -->
 
-    
+    <div class="gallery-section">
+        <div class="wrapper">
+            <div class="gallery-btns button-group filterizr-filter">
+                <button class="btn-1 gal"><a href="<?php bloginfo("url")?>/gallery">Annick</a></button>
+                <button class="btn-1 gal"><a href="<?php bloginfo("url")?>/galleryartsenic">Artsenic</a></button>
+            </div>
+            <div class="gallery-btns2 g-btns-2 button-group filterizr-filter">
+                <button class="btn-1 gal" data-filter="*">All</button>
+                <button class="btn-1 gal" data-filter="toile">Toiles</button>
+                <button class="btn-1 gal" data-filter="dessin">Dessins</button>
+                <button class="btn-1 gal" data-filter="2017">Sculptures</button>
+                <button class="btn-1 gal" data-filter="2014">Divers</button>
+            </div>
+            <div class="gallery">
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery1.jpeg"><img class="filtr-item" data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery1.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery2.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery2.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery3.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery3.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery4.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery4.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery5.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery5.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery6.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery6.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery7.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery7.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery8.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery8.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery9.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery9.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery10.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery10.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery11.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery11.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery12.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery12.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery13.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery13.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery14.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery14.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery15.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery15.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery16.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery16.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery17.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery17.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery18.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery18.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery19.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery19.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery20.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery20.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery21.jpeg"><img data-filter="dessin" src=" <?php bloginfo("template_url")?>/img/gallery/gallery21.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery22.jpeg"><img data-filter="dessin" src=" <?php bloginfo("template_url")?>/img/gallery/gallery22.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery23.jpeg"><img data-filter="dessin" src=" <?php bloginfo("template_url")?>/img/gallery/gallery23.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery24.jpeg"><img data-filter="dessin" src=" <?php bloginfo("template_url")?>/img/gallery/gallery24.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery25.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery25.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery26.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery26.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery27.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery27.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery28.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery28.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery29.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery29.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery30.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery30.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery31.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery31.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery32.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery32.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery33.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery33.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery34.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery34.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery35.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery35.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery36.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery36.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery37.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery37.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery38.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery38.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery39.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery39.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery40.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery40.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery41.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery41.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery42.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery42.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery43.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery43.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery44.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery44.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery45.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery45.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery46.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery46.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery47.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery47.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery48.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery48.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery49.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery49.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery50.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery50.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery51.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery51.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery52.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery52.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery53.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery53.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery54.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery54.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery55.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery55.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery56.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery56.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery57.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery57.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery58.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery58.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery59.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery59.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery60.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery60.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery61.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery61.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery62.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery62.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery63.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery63.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery64.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery64.jpeg" alt=""></a>
+                <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery65.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery65.jpeg" alt=""></a>
+            </div>
+        </div>
+    </div>
 
     <!-- End of page -->
 
@@ -220,12 +301,12 @@
             <div class="f-gallery">
                 <h3 class="footer-h3">Galerie Photo</h3>
                 <div class="f-img-box">
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/motard1.jpg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/art1.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/projet1.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/projet2.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/art2.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/gallery4.jpeg" alt=""></a>
+                    <a href="gallerie.html"><img src="<?php bloginfo("template_url")?>/img/motard1.jpg" alt=""></a>
+                    <a href="gallerie.html"><img src="<?php bloginfo("template_url")?>/img/art1.jpeg" alt=""></a>
+                    <a href="gallerie.html"><img src="<?php bloginfo("template_url")?>/img/projet1.jpeg" alt=""></a>
+                    <a href="gallerie.html"><img src="<?php bloginfo("template_url")?>/img/projet2.jpeg" alt=""></a>
+                    <a href="gallerie.html"><img src="<?php bloginfo("template_url")?>/img/art2.jpeg" alt=""></a>
+                    <a href="gallerie.html"><img src="<?php bloginfo("template_url")?>/img/gallery4.jpeg" alt=""></a>
                 </div>
             </div>
         </div>

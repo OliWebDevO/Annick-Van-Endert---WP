@@ -30,10 +30,10 @@
     <header>
         <div class="top-bar">
             <div class="breadcrumb">
-                <a class="link" href="index.html">Accueil</a>
-                <a class="link" href="gallerie.html">Séries de tableaux</a> 
-                <a class="link" href="gallerie-artsenic.html">Artsenic</a>
-                <a class="link" href="contact.html">Contact</a>
+                <a class="link" href="<?php bloginfo("url")?>">Accueil</a>
+                <a class="link" href="<?php bloginfo("url")?>/gallery">Séries de tableaux</a> 
+                <a class="link" href="<?php bloginfo("url")?>/galleryartsenic">Artsenic</a>
+                <a class="link" href="<?php bloginfo("url")?>/contact">Contact</a>
             </div>
             <div class="follow">
                 <div class="f-text">

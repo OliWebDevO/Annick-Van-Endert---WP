@@ -30,10 +30,10 @@
     <header>
         <div class="top-bar">
             <div class="breadcrumb">
-                <a class="link" href="index.html">Accueil</a>
-                <a class="link" href="gallerie.html">Séries de tableaux</a> 
-                <a class="link" href="gallerie-artsenic.html">Artsenic</a>
-                <a class="link" href="contact.html">Contact</a>
+                <a class="link" href="<?php bloginfo("url")?>">Accueil</a>
+                <a class="link" href="<?php bloginfo("url")?>/gallery">Séries de tableaux</a> 
+                <a class="link" href="<?php bloginfo("url")?>/galleryartsenic">Artsenic</a>
+                <a class="link" href="<?php bloginfo("url")?>/contact">Contact</a>
             </div>
             <div class="follow">
                 <div class="f-text">
@@ -159,7 +159,33 @@
 
     <!-- Start of page -->
 
-    
+    <div class="gallery-section">
+        <div class="wrapper">
+            <div class="gallery-btns button-group filterizr-filter">
+                <button class="btn-1 gal"><a href="<?php bloginfo("url")?>/gallery">Annick</a></button>
+                <button class="btn-1 gal"><a href="<?php bloginfo("url")?>/galleryartsenic">Artsenic</a></button>
+            </div>
+            <div class="gallery-btns2 g-btns-2 button-group filterizr-filter">
+                <button class="btn-1 gal" data-filter="*">All</button>
+                <button class="btn-1 gal" data-filter="toile">Toiles</button>
+                <button class="btn-1 gal" data-filter="dessin">Dessins</button>
+                <button class="btn-1 gal" data-filter="sculpture">Sculptures</button>
+                <button class="btn-1 gal" data-filter="divers">Divers</button>
+            </div>
+            <div class="gallery">
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic1_orig.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic1_orig.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic2.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic2.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic3.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic3.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic4.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic4.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic5.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic5.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic6.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic6.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic7.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic7.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic8.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic8.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic9.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic9.jpg" alt=""></a>
+                <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic10.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic10.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
 
     <!-- End of page -->
 
