@@ -160,15 +160,16 @@
     <!-- Start of page -->
 
     <div class="wrapper">
-            <!-- News -->
-                <div class="news-container">
-                    <!-- News Column -->
+           
+           <!-- News -->
+               <div class="news-container">
+                   <!-- News Column -->
                     <div class="news-main-container">
                         <div class="news_posts">
                             <!-- News Post -->
                             <div class="news_post">
-                                <div class="news_post_image">
-                                    <img src="<?php bloginfo("template_url")?>/img/News/AFF_mursecrivains-exergue.jpg" alt="">
+                                <div class="news_post_image news_big">
+                                    <img src="img/News/AFF_mursecrivains-exergue.jpg" alt="">
                                 </div>
                                 <div class="news_post_top">
                                     <div class="news_post_date_container">
@@ -179,7 +180,7 @@
                                     </div>
                                     <div class="news_post_title_container">
                                         <div class="news_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news"><h2>Why do you need a qualification?</h2></a>
+                                            <a href="news-single.html"><h2>Why do you need a qualification?</h2></a>
                                         </div>
                                         <div class="news_post_meta">
                                             <span class="news_post_author"><a href="#">By Christian Smith</a></span>
@@ -190,78 +191,15 @@
                                 </div>
                                 <div class="news_post_text">
                                     <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
-                                </div>
-                                <div class="news_post_button btn-1">
-                                    <a href="<?php bloginfo("url")?>/single-news">Read More</a>
-                                </div>
-                            </div>
-
-                            <!-- News Post -->
-                            <div class="news_post">
-                                <div class="news_post_image">
-                                    <img src="<?php bloginfo("template_url")?>/img/News/news2.webp" alt="">
-                                </div>
-                                <div class="news_post_top">
-                                    <div class="news_post_date_container">
-                                        <div class="news_post_date">
-                                            <div class="date_day">18</div>
-                                            <div>DEC</div>
-                                        </div>
-                                    </div>
-                                    <div class="news_post_title_container">
-                                        <div class="news_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news"><h2>Why do you need a qualification?</h2></a>
-                                        </div>
-                                        <div class="news_post_meta">
-                                            <span class="news_post_author"><a href="#">By Christian Smith</a></span>
-                                            <span>|</span>
-                                            <span class="news_post_comments"><a href="#">3 Comments</a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="news_post_text">
+                                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
+                                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
                                     <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
                                 </div>
-                                <div class="news_post_button btn-1">
-                                    <a href="<?php bloginfo("url")?>/single-news">Read More</a>
-                                </div>
                             </div>
-
-                            <!-- News Post -->
-                            <div class="news_post">
-                                <div class="news_post_image">
-                                    <img src="<?php bloginfo("template_url")?>/img/News/news3.webp" alt="">
-                                </div>
-                                <div class="news_post_top">
-                                    <div class="news_post_date_container">
-                                        <div class="news_post_date">
-                                            <div class="date_day">18</div>
-                                            <div>DEC</div>
-                                        </div>
-                                    </div>
-                                    <div class="news_post_title_container">
-                                        <div class="news_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news"><h2>Why do you need a qualification?</h2></a>
-                                        </div>
-                                        <div class="news_post_meta">
-                                            <span class="news_post_author"><a href="#">By Christian Smith</a></span>
-                                            <span>|</span>
-                                            <span class="news_post_comments"><a href="#">3 Comments</a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="news_post_text">
-                                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
-                                </div>
-                                <div class="news_post_button btn-1">
-                                    <a href="<?php bloginfo("url")?>/single-news">Read More</a>
-                                </div>
-                            </div>
-                            
                         </div>
-
+           
                         <!-- Page Nav -->
-
+           
                         <!-- <div class="news_page_nav">
                             <ul>
                                 <li class="active text-center trans_200"><a href="#">01</a></li>
@@ -269,11 +207,11 @@
                                 <li class="text-center trans_200"><a href="#">03</a></li>
                             </ul>
                         </div> -->
-
+           
                     </div>
-
+           
                     <!-- Sidebar -->
-
+           
                     <div class="news-side-container">
                             <!-- Archive -->
                             <div class="sidebar_section">
@@ -310,9 +248,9 @@
                                     </li>
                                 </ul>
                             </div>
-
+           
                             <!-- Artists Posts -->
-
+           
                             <div class="sidebar_section">
                                 <div class="sidebar_section_title">
                                     <h3>NEWS // Annick</h3>
@@ -323,10 +261,10 @@
                                     <!-- Latest Post -->
                                     <div class="latest_post">
                                         <div class="latest_post_image">
-                                            <img class="latest_post_image" src="<?php bloginfo("template_url")?>/img/News/AFF_mursecrivains-exergue.jpg">
+                                            <img class="latest_post_image" src="img/News/AFF_mursecrivains-exergue.jpg">
                                         </div>
                                         <div class="latest_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news">Murs d'images d'écrivains</a>
+                                            <a href="news_post.html">Murs d'images d'écrivains</a>
                                         </div>
                                         <div class="latest_post_meta">
                                             <span class="latest_post_author">
@@ -342,10 +280,10 @@
                                     <!-- Latest Post -->
                                     <div class="latest_post">
                                         <div class="latest_post_image">
-                                            <img class="latest_post_image" src="<?php bloginfo("template_url")?>/img/News/news2.webp">
+                                            <img class="latest_post_image" src="img/News/news2.webp">
                                         </div>
                                         <div class="latest_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news">Murs d'images d'écrivains</a>
+                                            <a href="news_post.html">Murs d'images d'écrivains</a>
                                         </div>
                                         <div class="latest_post_meta">
                                             <span class="latest_post_author">
@@ -360,10 +298,10 @@
                                     <!-- Latest Post -->
                                     <div class="latest_post">
                                         <div class="latest_post_image">
-                                            <img class="latest_post_image" src="<?php bloginfo("template_url")?>/img/News/news3.webp">
+                                            <img class="latest_post_image" src="img/News/news3.webp">
                                         </div>
                                         <div class="latest_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news">Murs d'images d'écrivains</a>
+                                            <a href="news_post.html">Murs d'images d'écrivains</a>
                                         </div>
                                         <div class="latest_post_meta">
                                             <span class="latest_post_author">
@@ -375,14 +313,14 @@
                                             </span>
                                         </div>
                                     </div>                            
-                                                    
+                                                      
                                     
                                 </div>
                                     
                             </div>
-
+           
                             <!-- General News Posts -->
-
+           
                             <div class="sidebar_section">
                                 <div class="sidebar_section_title">
                                     <h3>NEWS // Culture</h3>
@@ -393,10 +331,10 @@
                                     <!-- Latest Post -->
                                     <div class="latest_post">
                                         <div class="latest_post_image">
-                                            <img class="latest_post_image" src="<?php bloginfo("template_url")?>/img/News/news4.webp">
+                                            <img class="latest_post_image" src="img/News/news4.webp">
                                         </div>
                                         <div class="latest_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news">Murs d'images d'écrivains</a>
+                                            <a href="news_post.html">Murs d'images d'écrivains</a>
                                         </div>
                                         <div class="latest_post_meta">
                                             <span class="latest_post_author">
@@ -412,10 +350,10 @@
                                     <!-- Latest Post -->
                                     <div class="latest_post">
                                         <div class="latest_post_image">
-                                            <img class="latest_post_image" src="<?php bloginfo("template_url")?>/img/News/news2.webp">
+                                            <img class="latest_post_image" src="img/News/news2.webp">
                                         </div>
                                         <div class="latest_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news">Murs d'images d'écrivains</a>
+                                            <a href="news_post.html">Murs d'images d'écrivains</a>
                                         </div>
                                         <div class="latest_post_meta">
                                             <span class="latest_post_author">
@@ -430,10 +368,10 @@
                                     <!-- Latest Post -->
                                     <div class="latest_post">
                                         <div class="latest_post_image">
-                                            <img class="latest_post_image" src="<?php bloginfo("template_url")?>/img/News/AFF_mursecrivains-exergue.jpg">
+                                            <img class="latest_post_image" src="img/News/AFF_mursecrivains-exergue.jpg">
                                         </div>
                                         <div class="latest_post_title">
-                                            <a href="<?php bloginfo("url")?>/single-news">Murs d'images d'écrivains</a>
+                                            <a href="news_post.html">Murs d'images d'écrivains</a>
                                         </div>
                                         <div class="latest_post_meta">
                                             <span class="latest_post_author">
@@ -445,13 +383,13 @@
                                             </span>
                                         </div>
                                     </div>                            
-                                                    
+                                                      
                                     
                                 </div>
                                     
                             </div>
                             <!-- Tags -->
-
+           
                         <!--<div class="sidebar_section">
                                 <div class="sidebar_section_title">
                                     <h3>Tags</h3>
@@ -465,9 +403,9 @@
                                     <div class="tag"><a href="#">Graduate</a></div>
                                 </div>
                             </div> -->
-                        </div>
-                 </div>
-        </div>
+                    </div>
+                </div>
+            </div>
 
     <!-- End of page -->
 

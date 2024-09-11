@@ -273,12 +273,12 @@
             <div class="f-gallery">
                 <h3 class="footer-h3">Galerie Photo</h3>
                 <div class="f-img-box">
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/motard1.jpg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/art1.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/projet1.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/projet2.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/art2.jpeg" alt=""></a>
-                    <a href="gallerie.html"><img src=" <?php bloginfo("template_url")?>/img/gallery4.jpeg" alt=""></a>
+                    <a href="<?php bloginfo("url")?>/gallery"><img src=" <?php bloginfo("template_url")?>/img/motard1.jpg" alt=""></a>
+                    <a href="<?php bloginfo("url")?>/gallery"><img src=" <?php bloginfo("template_url")?>/img/art1.jpeg" alt=""></a>
+                    <a href="<?php bloginfo("url")?>/gallery"><img src=" <?php bloginfo("template_url")?>/img/projet1.jpeg" alt=""></a>
+                    <a href="<?php bloginfo("url")?>/gallery"><img src=" <?php bloginfo("template_url")?>/img/projet2.jpeg" alt=""></a>
+                    <a href="<?php bloginfo("url")?>/gallery"><img src=" <?php bloginfo("template_url")?>/img/art2.jpeg" alt=""></a>
+                    <a href="<?php bloginfo("url")?>/gallery"><img src=" <?php bloginfo("template_url")?>/img/gallery4.jpeg" alt=""></a>
                 </div>
             </div>
         </div>
