@@ -3,34 +3,26 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide hero">
-                    <div class="h-box-text">
-                        <h3 class="h3">// Artiste Peintre </h3>
-                        <h1>Annick Van Endert</h1>
-                        <div class="h-p">
-                            <p class="paragraph-big">La vie "fête" de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d'émotions, aimer, vibrer, toucher, agir...réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s'en époumoner, vivre chaque instant comme si c'était le dernier. </p>
+                <?php
+                    $loop = new WP_Query( array( 
+                        'post_type' => 'slider', // Va rechercher le type de contenu “job”
+                        'posts_per_page' => -1, // Affiche tout sans limite 
+                        'order' => 'ASC', // Chronologique ou pas (DESC)
+                            ));?>
+                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                    <!-- Ce qui doit être "bouclé" -->
+                    <div class="swiper-slide hero" style="background:url(<?php the_post_thumbnail_url(); ?>) top / cover">
+                        <div class="h-box-text">
+                            <h3 class="h3">// <?php the_field('sous_titre'); ?> </h3>
+                            <h1><?php the_title(); ?></h1>
+                            <div class="h-p">
+                                <?php the_excerpt(); ?>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide hero2">
-                    <div class="hero-img"></div>
-                    <div class="h-box-text">
-                        <h3 class="h3">// Artiste Peintre </h3>
-                        <h1>Annick Van Endert</h1>
-                        <div class="h-p">
-                            <p class="paragraph-big">La vie "fête" de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d'émotions, aimer, vibrer, toucher, agir...réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s'en époumoner, vivre chaque instant comme si c'était le dernier. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide hero3">
-                    <div class="h-box-text">
-                        <h3 class="h3">// Artiste Peintre </h3>
-                        <h1>Annick Van Endert</h1>
-                        <div class="h-p">
-                            <p class="paragraph-big">La vie "fête" de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d'émotions, aimer, vibrer, toucher, agir...réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s'en époumoner, vivre chaque instant comme si c'était le dernier. </p>
-                        </div>
-                    </div>
-                </div>
+                    <?php endwhile;
+                    wp_reset_query();
+                    ?>
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"><div class="triangle"></div></div>

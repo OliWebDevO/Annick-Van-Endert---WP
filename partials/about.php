@@ -1,12 +1,22 @@
 <div class="wrapper">
         <section class="one">
             <div class="s1-container">
+                <!-- Loop PHP Debut-->
+                <?php
+                $loop = new WP_Query( array( 
+                    'post_type' => 'accueil-section', // Va rechercher le type de contenu “job”
+                    'posts_per_page' => 1, // Affiche tout sans limite
+                    'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                    'order' => 'ASC', // Chronologique ou pas (DESC)
+                        ));?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <!-- Ce qui doit être "bouclé" -->
                 <div class="s1-imgs wow animate__fadeInUp" data-wow-delay="0.1s">
                     <div class="s1-img1">
-                        <img src=" <?php bloginfo("template_url")?>/img/art1.jpeg" alt="">
+                        <img src= "<?php the_field('photo_gauche');?>" alt="">
                     </div>
                     <div class="s1-img2">
-                        <img src=" <?php bloginfo("template_url")?>/img/art2.jpeg" alt="">
+                        <img src= "<?php the_field('photo_droite');?>" alt="">
                     </div>
                     <div class="s1-form1">
                         
@@ -17,23 +27,21 @@
                 </div>
                 <div class="s1-txt wow animate__fadeInUp" data-wow-delay="0.3s">
                     <h3 class="h3">
-                        // A propos
+                    <?php the_title(); ?>
                     </h3>
                     <h2 class="h2">
-                        Fête des passions
+                    <?php the_field('sous_titre');?>
                     </h2>
                     <p class="paragraph">
-                        La vie "fête" de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d'émotions, aimer, vibrer, toucher, agir...réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s'en époumoner, vivre chaque instant comme si c'était le dernier.
-                    </p>
-                    <p class="paragraph">
-                        Bienvenue dans mon espace créatif
-                    </p>
-                    <p class="paragraph">
-                        La vie "fête" de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d'émotions, aimer, vibrer, toucher, agir...réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s'en époumoner, vivre chaque instant comme si c'était le dernier.
+                    <?php the_excerpt(); ?>
                     </p>
                     <button class="btn-1">
-                        <a href="about.html#annick">En savoir plus</a>
+                        <a href="<?php bloginfo("url")?>/about#annick">En savoir plus</a>
                     </button>
                 </div>
+                <?php endwhile;
+                wp_reset_query();
+                ?>
+                <!-- Loop PHP Fin-->
             </div>
         </section>

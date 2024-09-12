@@ -85,6 +85,10 @@
         width: 800px;
         p {
             color: white;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            text-align: justify;
         }
     }
     @media (max-width: 768px) {
