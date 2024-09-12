@@ -73,7 +73,7 @@
                         </ul>
                     </li>
                     <li class="main-li">
-                        <a class="link" href="<?php bloginfo("url")?>/gallery">Gallerie</a>
+                        <a class="link" href="<?php bloginfo("url")?>/gallery">Galerie</a>
                         <ul class="sub-menu">
                             <li>
                                 <a class="link" href="<?php bloginfo("url")?>/gallery">Annick</a>
@@ -130,7 +130,7 @@
                         </ul>
                     </li>
                     <li class="main-li">
-                        <a class="link" href="<?php bloginfo("url")?>/gallery">Gallerie</a>
+                        <a class="link" href="<?php bloginfo("url")?>/gallery">Galerie</a>
                         <ul class="sub-menu">
                             <li>
                                 <a class="link" href="<?php bloginfo("url")?>/gallery">Annick</a>
@@ -153,7 +153,7 @@
         </div>
         <div class="hero-page"></div>
         <div class="title-page">
-            <h2>Gallerie</h2>
+            <h2>Galerie</h2>
         </div>
     </header>
 
