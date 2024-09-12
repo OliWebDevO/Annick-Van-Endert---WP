@@ -173,6 +173,20 @@
                 <button class="btn-1 gal" data-filter="2014">Divers</button>
             </div>
             <div class="gallery">
+                <!-- Loop PHP Debut-->
+                <?php
+                $loop = new WP_Query( array( 
+                    'post_type' => 'oeuvre', // Va rechercher le type de contenu “job”
+                    'posts_per_page' => -1, // Affiche tout sans limite
+                    'order' => 'ASC', // Chronologique ou pas (DESC)
+                        ));?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <!-- Ce qui doit être "bouclé" -->
+                <a href="<?php the_post_thumbnail_url(); ?>"><img class="filtr-item" data-filter="<?php the_field('type_doeuvre');?>" src="<?php the_post_thumbnail_url(); ?>" alt=""></a>
+                <?php endwhile;
+                wp_reset_query();
+                ?>
+                <!-- Loop PHP Fin-->
                 <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery1.jpeg"><img class="filtr-item" data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery1.jpeg" alt=""></a>
                 <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery2.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery2.jpeg" alt=""></a>
                 <a href=" <?php bloginfo("template_url")?>/img/gallery/gallery3.jpeg"><img data-filter="toile" src=" <?php bloginfo("template_url")?>/img/gallery/gallery3.jpeg" alt=""></a>
