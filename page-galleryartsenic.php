@@ -173,6 +173,18 @@
                 <button class="btn-1 gal" data-filter="divers">Divers</button>
             </div>
             <div class="gallery">
+            <?php
+                $loop = new WP_Query( array( 
+                    'post_type' => 'oeuvre-artsenic', // Va rechercher le type de contenu “job”
+                    'posts_per_page' => -1, // Affiche tout sans limite
+                    'order' => 'ASC', // Chronologique ou pas (DESC)
+                        ));?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <!-- Ce qui doit être "bouclé" -->
+                <a href="<?php the_post_thumbnail_url(); ?>"><img class="filtr-item" data-filter="<?php the_field('type_doeuvre');?>" src="<?php the_post_thumbnail_url(); ?>" alt=""></a>
+                <?php endwhile;
+                wp_reset_query();
+                ?>
                 <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic1_orig.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic1_orig.jpg" alt=""></a>
                 <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic2.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic2.jpg" alt=""></a>
                 <a href="<?php bloginfo("template_url")?>/img/artsenic/artsenic3.jpg"><img data-filter="toile" src="<?php bloginfo("template_url")?>/img/artsenic/artsenic3.jpg" alt=""></a>
