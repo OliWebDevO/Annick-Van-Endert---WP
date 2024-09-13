@@ -159,7 +159,7 @@
 
     <!-- Start of page -->
 
-    <section class="section-contact">
+    <!-- <section class="section-contact">
         <div class="wrapper">
             <div class="contact-box wow animate__fadeInUp" data-wow-delay="0.1s">
                 <div class="contact-title">
@@ -177,7 +177,23 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section class="section-contact">
+        <div class="wrapper">
+            <div class="contact-box wow animate__fadeInUp" data-wow-delay="0.1s">
+                <div class="contact-title">
+                    <h3>Laissez moi un message</h3>
+                </div>
+                <div class="contact-form">
+                        <div class="form-info">
+                        <?php echo do_shortcode('[contact-form-7 id="de1d4e7" title="Formulaire de contact 1"]')?>
+                        </div>
+                </div>
+            </div>
+        </div>
     </section>
+
 
     <!-- End of page -->
 

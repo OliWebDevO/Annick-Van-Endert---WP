@@ -89,4 +89,4 @@ wp_reset_query();
 
 <!-- Form :  -->
 
-<?php echo do_shortcode('[contact-form-7 id="70e7894" title="Formulaire de contact"]')?>
+<?php echo do_shortcode('[contact-form-7 id="de1d4e7" title="Formulaire de contact 1"]')?>
