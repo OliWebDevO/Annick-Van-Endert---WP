@@ -169,8 +169,8 @@
                 <button class="btn-1 gal" data-filter="*">All</button>
                 <button class="btn-1 gal" data-filter="toile">Toiles</button>
                 <button class="btn-1 gal" data-filter="dessin">Dessins</button>
-                <button class="btn-1 gal" data-filter="2017">Sculptures</button>
-                <button class="btn-1 gal" data-filter="2014">Divers</button>
+                <button class="btn-1 gal" data-filter="sculpture">Sculptures</button>
+                <button class="btn-1 gal" data-filter="divers">Divers</button>
             </div>
             <div class="gallery">
                 <!-- Loop PHP Debut-->

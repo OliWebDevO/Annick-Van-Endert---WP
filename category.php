@@ -165,6 +165,17 @@
                     <!-- News Column -->
                     <div class="news-main-container">
                         <div class="news_posts">
+                            <!-- Loop PHP Debut-->
+                            <?php
+                            $loop = new WP_Query( array( 
+                                'post_type' => 'news', // Va rechercher le type de contenu “job”
+                                'category_name' => $current_slug = add_query_arg(array(), $wp->request), // Va rechercher le type de contenu “job”
+                                'posts_per_page' => -1, // Affiche tout sans limite
+                                'order' => 'ASC', // Chronologique ou pas (DESC)
+                                    ));?>
+                            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                            <!-- Ce qui doit être "bouclé" -->
+
                             <!-- News Post -->
                             <div class="news_post">
                                 <div class="news_post_image">
@@ -189,10 +200,18 @@
                                     </div>
                                 </div>
                                 <div class="news_post_text">
-                                    <p><?php the_content(); ?></p>
+                                    <p><?php the_excerpt(); ?></p>
+                                </div>
+                                <div class="news_post_button btn-1">
+                                    <a href="<?php bloginfo("url")?>/single-news">Read More</a>
                                 </div>
                             </div>
-                            
+
+                            <?php endwhile;
+                            wp_reset_query();
+                            ?>
+                            <!-- Loop PHP Fin--> 
+                             
                         </div>
 
                         <!-- Page Nav -->
@@ -207,9 +226,9 @@
 
                     </div>
 
-                     <!-- Sidebar -->
+                    <!-- Sidebar -->
 
-                     <div class="news-side-container">
+                    <div class="news-side-container">
                             <!-- Archive -->
                             <div class="sidebar_section">
                                 <div class="sidebar_section_title">

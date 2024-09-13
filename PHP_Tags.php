@@ -6,7 +6,7 @@
 <?php header_image(); ?>
 
 <!-- Si besoin d'une catégorie -->
-<div class ="category"><?php the_category(',') ; ?></div>
+<div class ="category"><?php the_category(' | ') ; ?></div>
 
 <!-- Pour faire un lien vers la page de l'élement en question, notamment vers les single-lapage.php -->
 <?php the_permalink()?>
@@ -58,6 +58,10 @@ wp_reset_query();
     <?php the_content(); ?>
 
     <?php the_field('sous_titre');?>
+
+    <?php the_permalink()?>
+
+    <?php the_category(' | ') ; ?>
 
   </div>
     <!-- do stuff ... -->
