@@ -234,6 +234,16 @@ nav {
     color: orange;
     padding-left: 50px;
     font-size: 22px;
+    a {
+        font-family: "Playfair Display", serif;
+    color: orange;
+    padding-left: 50px;
+    font-size: 22px;
+    &:hover{
+        color: rgba(255, 166, 0, 0.88);
+        transition: ease-in-out .3s;
+    }
+    }
 }
 @media (max-width: 762px) {
     .n-logo {

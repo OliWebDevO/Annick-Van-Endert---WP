@@ -49,7 +49,9 @@
         </div>
         <nav>
             <div class="n-logo">
-                <h1>Annick</h1>
+                <a href="<?php bloginfo("url")?>">
+                    <h1>Annick</h1>
+                </a>
             </div>
             <div class="burger">
                 <div class="bline"></div>
