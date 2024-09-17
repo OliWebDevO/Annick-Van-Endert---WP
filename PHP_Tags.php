@@ -58,7 +58,7 @@ wp_reset_query();
     <?php the_content(); ?>
 
     <?php the_field('sous_titre');?>
-
+    
     <?php the_permalink()?>
 
     <?php the_category(' | ') ; ?>

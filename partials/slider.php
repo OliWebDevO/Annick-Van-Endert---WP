@@ -11,7 +11,8 @@
                             ));?>
                     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                     <!-- Ce qui doit être "bouclé" -->
-                    <div class="swiper-slide hero" style="background:url(<?php the_post_thumbnail_url(); ?>) top / cover">
+                    <style>#herobgcolor<?php the_field('identifiant_de_lopacite');?>:before { content: ""; background: rgba(0, 0, 0, 0.<?php the_field('opacite_slider');?>);}</style>
+                    <div class="swiper-slide hero" id='herobgcolor<?php the_field('identifiant_de_lopacite');?>' style="background:url(<?php the_post_thumbnail_url(); ?>) top / cover">
                         <div class="h-box-text">
                             <h3 class="h3">// <?php the_field('sous_titre'); ?> </h3>
                             <h1><?php the_title(); ?></h1>
