@@ -100,7 +100,7 @@
                 </div>
                 <div class="n-details">
                     <div class="n-me">
-                        <a href="">Me contacter</a>
+                        <a href="<?php bloginfo("url")?>/contact">Me contacter</a>
                     </div>
                     <div class="n-mail">
                         <a href="">Annickvanendert@hotmail.com</a>
@@ -158,26 +158,57 @@
     </header>
 
     <!-- Start of page -->
-
-    <section class="section-contact">
-        <div class="wrapper">
-            <div class="contact-box wow animate__fadeInUp" data-wow-delay="0.1s">
-                <div class="contact-title">
-                    <h3>Laissez moi un message</h3>
+        <div class="wrapper wrapper-testimonial">
+            <div class=" ">
+                <div class="testimony wow animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="info-testi">
+                        <h3 class="h3">Georges du Poney</h3>
+                        <h3 class="h3 h3-2"> Le 17 février 2024</h3>
+                    </div>
+                    <svg class="svg svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M82.87 129.48S77.32 98.96 114.31 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.59 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61zm154.26 0S231.58 98.96 268.57 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.58 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61z"></path></svg>
+                    <p class="paragraph">
+                        La vie « fête » de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d’émotions, aimer, vibrer, toucher, agir…réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s’en époumoner, vivre chaque instant comme si c’était le dernier.
+                    </p>
+                    <svg class="svg svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M239.64 74.01c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.24-32.64-26.45-59.5-58.79-60.39zm-156.74 0c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.25-32.64-26.45-59.5-58.79-60.39z"></path></svg>
                 </div>
-                <div class="contact-form">
-                    <form class="contact-form" action="">
-                        <div class="form-info">
-                            <input type="text" placeholder="Votre nom">
-                            <input type="text" placeholder="Votre mail">
-                            <textarea name="message" placeholder="Votre message" id="" cols="30" rows="10"></textarea>
-                            <input class="form-send" type="submit" value="Envoyer"> 
-                        </div>
-                    </form>
+                
+                <div class="testimony wow animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="info-testi">
+                        <h3 class="h3">Georges du Poney</h3>
+                        <h3 class="h3 h3-2"> Le 17 février 2024</h3>
+                    </div>
+                    <svg class="svg svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M82.87 129.48S77.32 98.96 114.31 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.59 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61zm154.26 0S231.58 98.96 268.57 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.58 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61z"></path></svg>
+                    <p class="paragraph">
+                        La vie « fête » de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d’émotions, aimer, vibrer, toucher, agir…réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s’en époumoner, vivre chaque instant comme si c’était le dernier.
+                    </p>
+                    <svg class="svg svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M239.64 74.01c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.24-32.64-26.45-59.5-58.79-60.39zm-156.74 0c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.25-32.64-26.45-59.5-58.79-60.39z"></path></svg>
+                </div>
+
+                <div class="testimony wow animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="info-testi">
+                        <h3 class="h3">Georges du Poney</h3>
+                        <h3 class="h3 h3-2"> Le 17 février 2024</h3>
+                    </div>
+                    <svg class="svg svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M82.87 129.48S77.32 98.96 114.31 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.59 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61zm154.26 0S231.58 98.96 268.57 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.58 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61z"></path></svg>
+                    <p class="paragraph">
+                        La vie « fête » de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d’émotions, aimer, vibrer, toucher, agir…réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s’en époumoner, vivre chaque instant comme si c’était le dernier.
+                    </p>
+                    <svg class="svg svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M239.64 74.01c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.24-32.64-26.45-59.5-58.79-60.39zm-156.74 0c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.25-32.64-26.45-59.5-58.79-60.39z"></path></svg>
+                </div>
+
+                <div class="testimony wow animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="info-testi">
+                        <h3 class="h3">Georges du Poney</h3>
+                        <h3 class="h3 h3-2"> Le 17 février 2024</h3>
+                    </div>
+                    <svg class="svg svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M82.87 129.48S77.32 98.96 114.31 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.59 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61zm154.26 0S231.58 98.96 268.57 74c-12.95 0-89.7 30.52-89.7 113.74 0 33.09 27.58 59.73 61.01 58.19 29.85-1.37 54.07-25.6 55.44-55.45 1.54-33.41-25.1-61-58.19-61z"></path></svg>
+                    <p class="paragraph">
+                        La vie « fête » de passions, de la couleur, des instants magiques, des rencontres fortuites, des folies créatrices, des rêves accomplis, des partages d’émotions, aimer, vibrer, toucher, agir…réagir, vivre sans oublier ses rêves, se perdre sans savoir si on retrouvera son chemin, respirer à s’en époumoner, vivre chaque instant comme si c’était le dernier.
+                    </p>
+                    <svg class="svg svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="#FFF"><path d="M239.64 74.01c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.24-32.64-26.45-59.5-58.79-60.39zm-156.74 0c-32.16-.89-59.56 23.76-61.9 55.85-2.59 35.43 25.38 64.97 60.26 64.97 0 0 0 15.82-10.97 34.02-5.9 9.79 4.91 21.1 15.04 15.8 30.22-15.81 62.45-48.71 56.36-110.25-3.25-32.64-26.45-59.5-58.79-60.39z"></path></svg>
                 </div>
             </div>
         </div>
-    </section>
 
     <!-- End of page -->
 

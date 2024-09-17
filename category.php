@@ -100,7 +100,7 @@
                 </div>
                 <div class="n-details">
                     <div class="n-me">
-                        <a href="">Me contacter</a>
+                         <a href="<?php bloginfo("url")?>/contact">Me contacter</a>
                     </div>
                     <div class="n-mail">
                         <a href="">Annickvanendert@hotmail.com</a>

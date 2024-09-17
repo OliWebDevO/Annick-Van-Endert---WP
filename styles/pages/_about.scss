@@ -5,9 +5,28 @@
    align-items: top;
    justify-content: center;
    margin-top: 200px;
+   height: 80vh;
    .s1-text {
     align-items: center;
    }
+}
+@media screen and (max-width: 1600px) {
+    .about-box {
+        height: 100vh;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .about-box {
+        height: 120vh;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .about-box {
+        height: 140vh;
+    }
+    
 }
 
 .grid-imgs {
