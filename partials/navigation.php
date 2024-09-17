@@ -67,7 +67,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="n-contact">
+            <!-- <div class="n-contact">
                 <div class="n-phone flex-shrink-0 btn-lg-square border border-light rounded-circle">
                     <i class="fa fa-phone text-primary"></i>
                 </div>
@@ -78,6 +78,11 @@
                     <div class="n-mail">
                         <a href="">Annickvanendert@hotmail.com</a>
                     </div>
+                </div>
+            </div> -->
+            <div class="n-contact">
+                <div class="n-phone flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                    <a href="<?php bloginfo("url")?>/contact"><i class="fa-solid fa-envelope text-primary"></i></a>
                 </div>
             </div>
         </nav>

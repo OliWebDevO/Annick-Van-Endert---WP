@@ -96,15 +96,7 @@
             </div>
             <div class="n-contact">
                 <div class="n-phone flex-shrink-0 btn-lg-square border border-light rounded-circle">
-                    <i class="fa fa-phone text-primary"></i>
-                </div>
-                <div class="n-details">
-                    <div class="n-me">
-                        <a href="<?php bloginfo("url")?>/contact">Me contacter</a>
-                    </div>
-                    <div class="n-mail">
-                        <a href="">Annickvanendert@hotmail.com</a>
-                    </div>
+                    <a href="<?php bloginfo("url")?>/contact"><i class="fa-solid fa-envelope text-primary"></i></a>
                 </div>
             </div>
         </nav>

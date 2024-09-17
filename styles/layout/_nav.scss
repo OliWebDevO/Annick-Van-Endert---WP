@@ -254,6 +254,13 @@ nav {
     .n-phone{
         padding-right: 10px;
     }
+    a {
+        text-decoration: none;
+        color: orange;
+    }
+    i {
+        font-size: 30px;
+    }
 }
 @media (max-width: 1060px) {
     .n-contact {
