@@ -151,7 +151,8 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #130d05e9;
+        background-color: #130d05ba;
+        -webkit-backdrop-filter: blur(7px);
         backdrop-filter: blur(7px);
         height: calc(100vh + 50px);
         width: 100vw;
