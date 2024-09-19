@@ -19,9 +19,13 @@ body {
    padding: 0;
    box-sizing: border-box;
    overflow-x: hidden;
-   overflow-y: hidden;
+   
 }
-
+@media (min-width: 1050px) {
+    body {
+        overflow-y: hidden;
+    }
+}   
 a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;

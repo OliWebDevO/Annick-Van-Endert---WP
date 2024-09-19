@@ -23,7 +23,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     /> -->
     <script src="https://kit.fontawesome.com/0144f75b4e.js" crossorigin="anonymous"></script>
-    <title></title>
+    <title><?php bloginfo("name")?></title>
 </head>
 
 <body>

@@ -151,14 +151,14 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #130d05b1;
+        background-color: #130d05e9;
         backdrop-filter: blur(7px);
         height: calc(100vh + 50px);
         width: 100vw;
         z-index: 999;
         transition: ease-in-out .3s;
         .main-li:not(:last-child){
-            padding-bottom: 80px;
+            padding-bottom: 50px;
         }
         .main-li {
             padding-right:30px;
@@ -230,6 +230,9 @@ nav {
   }
 
 .n-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Playfair Display", serif;
     color: orange;
     padding-left: 50px;

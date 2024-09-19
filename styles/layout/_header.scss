@@ -78,6 +78,7 @@
         font-size: 80px;
         margin: 20px 0;
     }
+
     h3 {
         margin: 0;
     }
@@ -100,5 +101,10 @@
             width: 100%;
         }
         
+    }
+    @media (max-width: 420px) {
+        h1 {
+            font-size: 30px;
+        }
     }
 }
